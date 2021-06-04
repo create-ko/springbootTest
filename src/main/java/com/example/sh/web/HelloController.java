@@ -18,5 +18,9 @@ public class HelloController {
         return new HelloResponseDto(name, amount);
     }
 
+    @GetMapping("/test")
+    public String test(){
+        return "test";
+    }
 }
 
